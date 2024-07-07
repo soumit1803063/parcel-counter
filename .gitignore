@@ -1,0 +1,16 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore __pycache__ directories
+__pycache__/
+
+# Add other files or directories to ignore below
+# For example:
+# .DS_Store (for macOS)
+# Thumbs.db (for Windows)
