@@ -40,7 +40,7 @@ Here is a video:
 
 In Figure 2, the yellow canvas represents the entire area covered by the camera. However, the full coverage might not be the region of interest because some spots may not clearly show the parcels.
 
-![Setup For The Experiment](./data/imgs/Setup.png)
+![Setup For The Experiment](./data/imgs/setup.png)
 
 Figure 2 : Experiment setup
 
