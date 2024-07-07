@@ -66,7 +66,7 @@ As the parcels approach the 'Counting Region' (illustrated inside the green rect
 
 **Case-2**: When a parcel's ID is detected inside the 'counting region', it is checked whether it is the same ID last located (location of center point) at the nearest point before the counting region. If no, then a tracking loss has occurred. This means after entering the counting region, the parcel received a new track ID. The reason might be anything (even accidentally getting some bad frames due to power outage. Because light does not turns out within just one frame.)
 
-Here comes the critical part. The width of the counting region must be narrower than the half-width of a parcel's bounding box. This ensures that when a parcel's center point even reach last/right end of the counting region, part of the parcel remains outside the front/left line of the counting region. Consequently, the last parcel that approached the counting region most closely is the same parcel currently inside it. This means no other parcel's center point has come as close to the counting region as the current candidate parcel.
+Here comes the critical part. The width of the counting region must be narrower than the half-width of a parcel's bounding box. This ensures that when a parcel's center point even reach last/right end of the counting region, part of the parcel remains outside the front/left line of the counting region. Consequently, the last parcel that approached the counting region most closely is the same parcel currently inside it. This means no other parcel's center point has come as close to the counting region as the current counting-candidate parcel.
 
 So, that's how the lost track is found out.
 
